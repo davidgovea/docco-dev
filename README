@@ -1,5 +1,7 @@
 I've adjusted Docco's commentFilter to ignore comments starting with any of:
-**#.** , **#/** , **#@** . **#$** 
+#. , #/ , #@ . #$ 
+
+I enjoy being able to keep dev comments in there using these syntax mods.
 
 
  ____                                                      
