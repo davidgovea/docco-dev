@@ -1,3 +1,7 @@
+I've adjusted Docco's commentFilter to ignore comments starting with any of:
+**#.** , **#/** , **#@** . **#$** 
+
+
  ____                                                      
 /\  _`\                                                    
 \ \ \/\ \        ___         ___         ___         ___   

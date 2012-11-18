@@ -196,7 +196,7 @@ for ext, l of languages
 
   # Ignore [hashbangs](http://en.wikipedia.org/wiki/Shebang_(Unix\))
   # and interpolations...
-  l.commentFilter = /(^#![/]|^\s*#\{)/
+  l.commentFilter = /(^#![/]|^\s*#\{|#[\./@$])/
 
   # The dividing token we feed into Pygments, to delimit the boundaries between
   # sections.
